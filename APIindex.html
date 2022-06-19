@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRAP THAILAND TRAVEL</title>
+    <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/be962443d3.js" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
 </head>
-<body style="height: 4000px;">
-
+<body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
-            <a href="APIindex.html" class="navbar-brand">TRAP THAILAND TRAVEL</a>
+            <a href="APIindex.html" class="navbar-brand"><i class="fa-solid fa-person-hiking me-2"></i>TRAP THAILAND TRAVEL</a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navtog">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -21,18 +22,20 @@
             <div id="navtog" class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a href="APIindex.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Travel</a></li>
+                    <li class="nav-item dropdown"><a href="#" class="nav-link" data-bs-toggle="dropdown">Travel</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a href="#" class="dropdown-item" id="droplist">Mountain</a></li>
+                            <li><a href="#" class="dropdown-item" id="droplist">Beach</a></li>
+                            <li><a href="#" class="dropdown-item" id="droplist">Island</a></li>
+                            <li><a href="#" class="dropdown-item" id="droplist">Top Tier Hotel</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item"><a href="#" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Contract</a></li>
                 </ul>
             </div>
         </div>
-    </nav>
-
-    <!-- Main -->
-    <main>
-        
-    </main>
+    </nav> 
 
     <!-- Footer -->
     <footer class="footer footer-expand-sm bg-dark fixed-bottom">

@@ -1,0 +1,9 @@
+#droplist{
+    color: rgba(255, 255, 255, 0.5);
+}
+#droplist:hover{
+    color: black;
+}
+#droplist:focus{
+    background-color: gray;
+}
