@@ -11,7 +11,9 @@
 .background-page{
     background-image: url('https://www.10wallpaper.com/wallpaper/3840x2160/1712/Switzerland_Lucerne_Lake_Sunrise_Travel_4K_Ultra_HD_3840x2160.jpg');
     width: 100%;
+    max-width: 100%;
     height: 90vh;
+    object-fit: cover;
     position: relative;
 }
 
@@ -22,7 +24,7 @@
 }
 
 .content{
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     position: absolute;
     top: 40%;
@@ -38,7 +40,7 @@
 
 .content .header-content{
     color: #fff;
-    padding: 100px;
+    padding: 5%;
 }
 
 .content .header-content h3{
@@ -62,13 +64,13 @@
 .grid-card{
     padding-top: 5%;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 60px;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5%;
 }
 
 .grid-card .box{
-    width: 350px;
-    height: 230px;
+    max-width: 90%;
+    max-height: 80%;
     background-position: center;
     background-size: cover;
     border-radius: 25px;
